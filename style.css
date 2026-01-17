@@ -290,6 +290,47 @@ body::-webkit-scrollbar {
   height: auto;
 }
 
+/* Wave Animation Section */
+.wave {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: waveHand 1.8s infinite;
+}
+
+@keyframes waveHand {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  }
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 /* About Section */
 .about {
   display: flex;
@@ -343,7 +384,7 @@ body::-webkit-scrollbar {
 .social-links a {
   text-decoration: none;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   justify-items: center;
   box-sizing: border-box;
@@ -543,7 +584,10 @@ body::-webkit-scrollbar {
   border: 1px solid #1A2421;
 }
 
-#project-1, #project-2, #project-3, #project-4 {
+#project-1,
+#project-2,
+#project-3,
+#project-4 {
   margin-bottom: 15px;
 }
 
@@ -591,7 +635,7 @@ body::-webkit-scrollbar {
   color: #1A2421;
 }
 
-.project-details > * {
+.project-details>* {
   width: 100%;
   min-width: 100%;
   max-width: 100%;
@@ -823,7 +867,7 @@ body::-webkit-scrollbar {
   color: #1A2421;
 }
 
-#fs-frm input::placeholder, 
+#fs-frm input::placeholder,
 #fs-frm textarea::placeholder {
   font-size: large;
   font-weight: 450;
@@ -933,7 +977,7 @@ body::-webkit-scrollbar {
 
   /* Navigation Section */
   .navigation {
-    justify-content:baseline;
+    justify-content: baseline;
     max-width: 85%;
     width: 85%;
     min-width: 85%;
@@ -1093,7 +1137,7 @@ body::-webkit-scrollbar {
     transform: none;
     box-shadow: none;
   }
-  
+
   .grid-item img {
     width: 60px;
     height: 60px;
@@ -1104,7 +1148,8 @@ body::-webkit-scrollbar {
     padding: 5px 0;
   }
 
-  .wide, .square {
+  .wide,
+  .square {
     grid-column: span 1 !important;
     grid-row: span 1 !important;
   }
@@ -1125,11 +1170,11 @@ body::-webkit-scrollbar {
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
-    width: 100%;    
+    width: 100%;
     font-size: medium;
     font-weight: 450;
     letter-spacing: -1px;
-    border-radius: 50px;      
+    border-radius: 50px;
   }
 
   .projects-card {
@@ -1139,7 +1184,10 @@ body::-webkit-scrollbar {
     border-radius: 10px;
   }
 
-  #project-1, #project-2, #project-3, #project-4 {
+  #project-1,
+  #project-2,
+  #project-3,
+  #project-4 {
     margin-bottom: 15px;
   }
 
@@ -1155,7 +1203,7 @@ body::-webkit-scrollbar {
   .project-details {
     font-size: medium;
   }
-  
+
   .projects-card .project-details img {
     border-radius: 4px;
   }
@@ -1265,7 +1313,7 @@ body::-webkit-scrollbar {
     font-size: medium;
   }
 
-  #fs-frm input::placeholder, 
+  #fs-frm input::placeholder,
   #fs-frm textarea::placeholder {
     font-size: medium;
   }
