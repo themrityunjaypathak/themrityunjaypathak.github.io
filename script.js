@@ -122,3 +122,37 @@ document.addEventListener('wheel', function (e) {
     e.preventDefault();
   }
 }, { passive: false });
+
+// Page Loader Section
+document.addEventListener("DOMContentLoaded", function () {
+
+  const loader = document.getElementById("page-loader");
+  const loadingNumber = document.getElementById("loading-number");
+
+  const duration = 1500;
+  const startTime = performance.now();
+
+  function animate(time) {
+    const elapsed = time - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const value = Math.floor(progress * 100);
+
+    loadingNumber.textContent = value + "%";
+
+    if (progress < 1) {
+      requestAnimationFrame(animate);
+    } else {
+      fadeOut();
+    }
+  }
+
+  function fadeOut() {
+    loader.classList.add("hide");
+
+    setTimeout(() => {
+      loader.remove();
+    }, 1000);
+  }
+
+  requestAnimationFrame(animate);
+});

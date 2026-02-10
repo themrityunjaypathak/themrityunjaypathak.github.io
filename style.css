@@ -18,6 +18,39 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+/* Page Loader Section */
+#page-loader {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+  z-index: 99999;
+  background-color: #010409;
+  transition: opacity 1s ease;
+}
+
+#loading-number {
+  color: white;
+  font-family: 'Unbounded', sans-serif;
+  font-display: swap;
+  font-weight: 600;
+  font-size: clamp(40px, 8vw, 70px);
+}
+
+#page-loader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#loading-number {
+  transition: transform 0.3s ease;
+}
+
+#page-loader.hide #loading-number {
+  transform: scale(1.2);
+}
+
 /* Back-To-Top Button Section */
 .back-to-top {
   display: none;
