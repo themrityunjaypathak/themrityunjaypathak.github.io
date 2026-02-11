@@ -244,7 +244,6 @@ body::-webkit-scrollbar {
   border: 1px solid #1A2421;
   border-radius: 100px;
   color: #1A2421;
-  transition: all 0.3s ease-in-out;
 }
 
 .overlay-message {
@@ -1131,6 +1130,14 @@ body::-webkit-scrollbar {
     font-size: 0.9rem;
   }
 
+  .hero-links a:hover i {
+    transform: rotate(0deg);
+  }
+
+  .hero-links a:hover {
+    background-color: transparent;
+  }
+
   .hero-image {
     width: 100%;
     border-radius: 14px;
@@ -1186,6 +1193,14 @@ body::-webkit-scrollbar {
 
   .social-links a {
     font-size: medium;
+  }
+
+  .social-links a:hover i {
+    transform: rotate(-45deg);
+  }
+
+  .social-links a:hover {
+    background-color: transparent;
   }
 
   /* Skills Section */
@@ -1255,6 +1270,10 @@ body::-webkit-scrollbar {
     border-radius: 50px;
   }
 
+  .project-links a:hover {
+    background-color: transparent;
+  }
+
   .projects-card {
     max-width: 85%;
     width: 85%;
@@ -1282,6 +1301,14 @@ body::-webkit-scrollbar {
 
   .projects-card .project-details img {
     border-radius: 4px;
+  }
+
+  .projects-card:hover {
+    border: 1px solid transparent;
+  }
+
+  .projects-card:hover .project-icon i {
+    transform: rotate(0deg);
   }
 
   /* Certificates Section */
@@ -1312,6 +1339,14 @@ body::-webkit-scrollbar {
 
   .certificates-link a {
     font-size: medium;
+  }
+
+  .certificates-link a:hover i {
+    transform: rotate(-45deg);
+  }
+
+  .certificates-link a:hover {
+    background-color: transparent;
   }
 
   /* Blogs Section */
@@ -1378,6 +1413,12 @@ body::-webkit-scrollbar {
     border-radius: 14px;
   }
 
+  #fs-frm input:hover,
+  #fs-frm select:hover,
+  #fs-frm textarea:hover {
+    background-color: transparent;
+  }
+
   #fs-frm input,
   #fs-frm select,
   #fs-frm textarea,
@@ -1398,5 +1439,11 @@ body::-webkit-scrollbar {
     width: auto;
     font-size: medium;
   }
+
+  #fs-frm [type="button"]:hover,
+  #fs-frm [type="submit"]:hover {
+    background-color: transparent;
+  }
+
 
 }
