@@ -968,7 +968,7 @@ body::-webkit-scrollbar {
 #fs-frm input:hover,
 #fs-frm select:hover,
 #fs-frm textarea:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 #fs-frm input:focus,
