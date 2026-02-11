@@ -13,7 +13,7 @@
 - It adds a modern and professional aesthetic to the website.
 
 <a href="https://www.magicpattern.design/tools/css-backgrounds">
-<img title="CSS Background" src="https://github.com/user-attachments/assets/63fb6be6-08e1-467a-affc-c2b77661bffc">
+<img title="CSS Background" src="https://github.com/user-attachments/assets/b2189114-f232-4fed-8b07-f402375a54cf">
 </a>
 
 ---
@@ -24,7 +24,7 @@
 - Available for download in PNG or SVG format with transparent backgrounds.
 
 <a href="https://visual.app/">
-<img title="Visual" src="https://github.com/user-attachments/assets/3683b141-7d30-4d8a-a15f-e6e5eca7eff3">
+<img title="Visual" src="https://github.com/user-attachments/assets/2385b097-40d1-40fd-beea-bd318e4a5f65">
 </a>
 
 ---
@@ -34,7 +34,7 @@
 - It ensures a clean and professional look across all devices and screen sizes.
 
 <a href="https://fonts.google.com/">
-<img title="Google Fonts" src="https://github.com/user-attachments/assets/fc7bd8dc-337e-4c2f-88fe-f8a640c052c0">
+<img title="Google Fonts" src="https://github.com/user-attachments/assets/993b7ef3-64b4-4128-aa69-d79e80b24a78">
 </a>
 
 ---
@@ -47,7 +47,7 @@
 - Also easy to customize size, colors and style to match the website theme.
 
 <a href="https://fontawesome.com/icons">
-<img title="Font Awesome" src="https://github.com/user-attachments/assets/5058b9b7-f51d-4a77-ba15-4884c0ffc608">
+<img title="Font Awesome" src="https://github.com/user-attachments/assets/1ef97f82-9a15-4a97-8f8b-c9d5eaea84b7">
 </a>
 
 ---
@@ -57,7 +57,7 @@
 - Makes it simple for users to get in touch without complex server setups.
 
 <a href="https://formspree.io/">
-<img title="Formspree" src="https://github.com/user-attachments/assets/e6a1b762-8079-446d-8e62-6c4a2683a4c0">
+<img title="Formspree" src="https://github.com/user-attachments/assets/92732cd0-c718-4467-b121-c98daf387c10">
 </a>
 
 <hr>
