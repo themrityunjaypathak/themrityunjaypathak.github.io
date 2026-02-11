@@ -968,7 +968,7 @@ body::-webkit-scrollbar {
 #fs-frm input:hover,
 #fs-frm select:hover,
 #fs-frm textarea:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #fs-frm input:focus,
@@ -1305,10 +1305,6 @@ body::-webkit-scrollbar {
 
   .projects-card:hover {
     border: 1px solid transparent;
-  }
-
-  .projects-card:hover .project-icon i {
-    transform: rotate(0deg);
   }
 
   /* Certificates Section */
