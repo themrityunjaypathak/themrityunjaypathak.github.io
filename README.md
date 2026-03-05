@@ -2,7 +2,7 @@
 <h1 id="header">Mrityunjay Pathak</h1>
 </div>
 
-<a href="https://themrityunjaypathak.github.io/"><img title="Mrityunjay's Portfolio" src="https://github.com/user-attachments/assets/455586fd-efaf-4f74-8e09-64a6dc222e79"></a>
+<a href="https://themrityunjaypathak.github.io/"><img title="Mrityunjay's Portfolio" src="https://github.com/user-attachments/assets/0410949b-6c54-4de4-9b03-e8afde8a7405"></a>
 
 ## Features
 
