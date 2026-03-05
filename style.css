@@ -10,7 +10,7 @@ body {
   padding: 4em;
   font-display: swap;
   font-family: "Satoshi", sans-serif;
-  color: #1A2421;
+  color: #010409;
   background-color: #010409;
 }
 
@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
 }
 
 #loading-number {
-  color: white;
+  color: whitesmoke;
   font-family: 'Unbounded', sans-serif;
   font-display: swap;
   font-weight: 600;
@@ -60,10 +60,10 @@ body::-webkit-scrollbar {
   right: 18px;
   padding: 12px 6px;
   font-size: medium;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border: none;
   border-radius: 100px;
-  color: #1A2421;
+  color: #010409;
   background-color: rgba(255, 255, 255, 0.5);
   transition: all 0.3s ease-in-out;
 }
@@ -87,6 +87,7 @@ body::-webkit-scrollbar {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 /* Navigation Section */
@@ -118,11 +119,11 @@ body::-webkit-scrollbar {
   width: 45px;
   font-display: swap;
   font-size: large;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border: none;
   border-radius: 50%;
-  color: #1A2421;
-  background-color: rgba(255, 255, 255, 0.3);
+  color: #010409;
+  background-color: rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -133,7 +134,7 @@ body::-webkit-scrollbar {
 .logo a:hover i {
   padding: 8px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* Navbar Section */
@@ -145,10 +146,10 @@ body::-webkit-scrollbar {
   height: 45px;
   gap: 10px;
   padding: 0 6px;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border: none;
   border-radius: 100px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .navbar a {
@@ -159,12 +160,12 @@ body::-webkit-scrollbar {
   font-weight: 450;
   letter-spacing: -1px;
   border-radius: 100px;
-  color: #1A2421;
+  color: #010409;
   transition: all 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* Contact Links Section */
@@ -185,10 +186,10 @@ body::-webkit-scrollbar {
   width: 45px;
   font-display: swap;
   font-size: large;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border-radius: 50%;
-  color: #1A2421;
-  background-color: rgba(255, 255, 255, 0.3);
+  color: #010409;
+  background-color: rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -199,7 +200,7 @@ body::-webkit-scrollbar {
 .contact-links a:hover i {
   padding: 8px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* Hamburger Menu Section */
@@ -220,8 +221,8 @@ body::-webkit-scrollbar {
   width: 100%;
   height: 100%;
   z-index: 999;
-  backdrop-filter: blur(14px);
-  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(100px);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .overlay-links {
@@ -241,9 +242,9 @@ body::-webkit-scrollbar {
   font-size: larger;
   font-weight: 450;
   letter-spacing: -1px;
-  border: 1px solid #1A2421;
+  border: 1px solid #010409;
   border-radius: 100px;
-  color: #1A2421;
+  color: #010409;
 }
 
 .overlay-message {
@@ -254,7 +255,7 @@ body::-webkit-scrollbar {
   font-weight: 600;
   letter-spacing: -1px;
   bottom: 2em;
-  color: #1A2421;
+  color: #010409;
 }
 
 /* Hero Section */
@@ -271,9 +272,9 @@ body::-webkit-scrollbar {
   width: 100%;
   max-width: 800px;
   height: auto;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .hero-text {
@@ -307,9 +308,9 @@ body::-webkit-scrollbar {
   font-size: medium;
   font-weight: 450;
   letter-spacing: -1px;
-  border: 1px solid #1A2421;
+  border: 1px solid #010409;
   border-radius: 100px;
-  color: #1A2421;
+  color: #010409;
   transition: all 0.3s ease-in-out;
 }
 
@@ -323,7 +324,7 @@ body::-webkit-scrollbar {
 }
 
 .hero-links a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .hero-image {
@@ -334,7 +335,7 @@ body::-webkit-scrollbar {
   width: 100%;
   max-width: 800px;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .hero-image img {
@@ -409,10 +410,10 @@ body::-webkit-scrollbar {
   min-width: 800px;
   gap: 16px;
   padding: 20px;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border: none;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .about-image {
@@ -449,9 +450,9 @@ body::-webkit-scrollbar {
   font-weight: 450;
   letter-spacing: -1px;
   padding: 6px 12px;
-  border: 1px solid #1A2421;
+  border: 1px solid #010409;
   border-radius: 100px;
-  color: #1A2421;
+  color: #010409;
   transition: all 0.3s ease-in-out;
 }
 
@@ -466,7 +467,7 @@ body::-webkit-scrollbar {
 }
 
 .social-links a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .about-text {
@@ -499,8 +500,8 @@ body::-webkit-scrollbar {
   font-size: medium;
   border: none;
   border-radius: 100px;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #1A2421;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #010409;
 }
 
 .arrow-icon {
@@ -551,10 +552,10 @@ body::-webkit-scrollbar {
   font-size: large;
   font-weight: 450;
   letter-spacing: -1px;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border: none;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -612,9 +613,9 @@ body::-webkit-scrollbar {
   font-size: medium;
   font-weight: 450;
   letter-spacing: -1px;
-  border: 1px solid #1A2421;
+  border: 1px solid #010409;
   border-radius: 100px;
-  color: #1A2421;
+  color: #010409;
   transition: all 0.3s ease-in-out;
 }
 
@@ -623,7 +624,7 @@ body::-webkit-scrollbar {
 }
 
 .project-links a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .projects-card {
@@ -638,16 +639,16 @@ body::-webkit-scrollbar {
   min-width: 800px;
   max-width: 800px;
   margin: 0 auto;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border: 1px solid transparent;
   border-radius: 20px;
-  color: #1A2421;
-  background-color: rgba(255, 255, 255, 0.3);
+  color: #010409;
+  background-color: rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease-in-out;
 }
 
 .projects-card:hover {
-  border: 1px solid #1A2421;
+  border: 1px solid #010409;
 }
 
 #project-1,
@@ -698,7 +699,7 @@ body::-webkit-scrollbar {
   font-display: swap;
   font-size: medium;
   font-weight: 450;
-  color: #1A2421;
+  color: #010409;
 }
 
 .project-details>* {
@@ -726,7 +727,7 @@ body::-webkit-scrollbar {
   font-size: larger;
   font-weight: 600;
   letter-spacing: -1px;
-  color: #1A2421;
+  color: #010409;
 }
 
 /* Certificates Section */
@@ -758,9 +759,9 @@ body::-webkit-scrollbar {
   align-items: center;
   justify-content: flex-start;
   padding: 10px 10px 0px 10px;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -782,9 +783,9 @@ body::-webkit-scrollbar {
   font-weight: 450;
   letter-spacing: -1px;
   padding: 6px 12px;
-  border: 1px solid #1A2421;
+  border: 1px solid #010409;
   border-radius: 100px;
-  color: #1A2421;
+  color: #010409;
   transition: all 0.3s ease-in-out;
 }
 
@@ -799,7 +800,7 @@ body::-webkit-scrollbar {
 }
 
 .certificates-link a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* Blogs Section */
@@ -831,10 +832,10 @@ body::-webkit-scrollbar {
   align-items: center;
   justify-content: flex-start;
   padding: 10px 10px 0 10px;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border: none;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -880,11 +881,11 @@ body::-webkit-scrollbar {
   max-width: 800px;
   padding: 2.5rem 6rem 1.5rem 6rem;
   box-sizing: border-box;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
   border: none;
   border-radius: 20px;
-  color: #1A2421;
-  background-color: rgba(255, 255, 255, 0.3);
+  color: #010409;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .contact-card.no-bottom-padding {
@@ -913,7 +914,7 @@ body::-webkit-scrollbar {
   font-weight: 450;
   letter-spacing: -1px;
   border: none;
-  color: #1A2421;
+  color: #010409;
 }
 
 #fs-frm #message {
@@ -933,7 +934,7 @@ body::-webkit-scrollbar {
   font-size: large;
   font-weight: 450;
   letter-spacing: -1px;
-  color: #1A2421;
+  color: #010409;
 }
 
 #fs-frm input::placeholder,
@@ -942,7 +943,7 @@ body::-webkit-scrollbar {
   font-size: large;
   font-weight: 450;
   letter-spacing: -1px;
-  color: #1A2421;
+  color: #010409;
   opacity: 0.5;
 }
 
@@ -958,9 +959,9 @@ body::-webkit-scrollbar {
   font-size: large;
   font-weight: 450;
   letter-spacing: -1px;
-  border: 1px solid #1A2421;
+  border: 1px solid #010409;
   border-radius: 12px;
-  color: #1A2421;
+  color: #010409;
   background-color: transparent;
   transition: all 0.3s ease-in-out;
 }
@@ -968,7 +969,7 @@ body::-webkit-scrollbar {
 #fs-frm input:hover,
 #fs-frm select:hover,
 #fs-frm textarea:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #fs-frm input:focus,
@@ -995,7 +996,7 @@ body::-webkit-scrollbar {
   font-size: large;
   font-weight: 450;
   letter-spacing: -1px;
-  border: 1px solid #1A2421;
+  border: 1px solid #010409;
   border-radius: 100px;
   background-color: transparent;
   transition: all 0.3s ease-in-out;
@@ -1003,7 +1004,7 @@ body::-webkit-scrollbar {
 
 #fs-frm [type="button"]:hover,
 #fs-frm [type="submit"]:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 #fs-frm [type="button"]:focus,
@@ -1038,12 +1039,12 @@ body::-webkit-scrollbar {
     z-index: 1;
     bottom: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
   }
 
   .back-to-top:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
   }
 
   /* Wrapper Section */
@@ -1061,9 +1062,9 @@ body::-webkit-scrollbar {
     max-width: 85%;
     width: 85%;
     min-width: 85%;
-    backdrop-filter: blur(14px);
+    backdrop-filter: blur(10px);
     border-radius: 100px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
     z-index: 9999;
   }
 
@@ -1079,7 +1080,7 @@ body::-webkit-scrollbar {
   .contact-links {
     backdrop-filter: none;
     border-radius: 100px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   .contact-links a {
@@ -1101,7 +1102,7 @@ body::-webkit-scrollbar {
     width: 45px;
     border: none;
     border-radius: 50%;
-    color: #1A2421;
+    color: #010409;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
   }
