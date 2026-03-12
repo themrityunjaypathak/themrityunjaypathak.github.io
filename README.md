@@ -1,8 +1,6 @@
-<div align="center">
-<h1 id="header">Mrityunjay Pathak</h1>
-</div>
+<h1 id="header" align="center">Mrityunjay Pathak</h1>
 
-<a href="https://themrityunjaypathak.github.io/"><img title="Mrityunjay's Portfolio" src="https://github.com/user-attachments/assets/e2fed632-824c-47bb-9a9b-fb6c169974f9"></a>
+<a href="https://themrityunjaypathak.github.io/"><img title="Mrityunjay's Portfolio" src="https://github.com/user-attachments/assets/20cfeff4-85bf-4819-a226-ebbd774f0a42"></a>
 
 ## Features
 
@@ -77,10 +75,10 @@ cd themrityunjaypathak.github.io
 ## Setup
 - After cloning, you can view and test the portfolio locally.
 
-**Option 1 - Open Directly in Browser**
+**Option 1 : Open Directly in Browser**
 - Simply double-click the ```index.html``` file to open it in your default browser.
 
-**Option 2 - Run a Local Development Server**
+**Option 2 : Run a Local Development Server**
 - For better testing, use VS Code Live Server.
 - Open the project folder in Visual Studio Code.
 - Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension (if not already installed).
