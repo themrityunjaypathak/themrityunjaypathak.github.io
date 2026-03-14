@@ -64,12 +64,12 @@ body::-webkit-scrollbar {
   border: none;
   border-radius: 100px;
   color: #010409;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transition: all 0.3s ease-in-out;
 }
 
 .back-to-top:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Wrapper Section */
@@ -969,7 +969,7 @@ body::-webkit-scrollbar {
 #fs-frm input:hover,
 #fs-frm select:hover,
 #fs-frm textarea:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #fs-frm input:focus,
