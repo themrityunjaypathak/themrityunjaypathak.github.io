@@ -6,8 +6,8 @@
 
 **CSS Backgrounds**
 - The stylish dotted patterns are created using CSS Backgrounds.
-- It has editable background pattern presets made entirely by CSS.
-- You can copy it as CSS or download PNG image of the pattern.
+- It has editable background pattern presets made entirely with CSS.
+- You can copy them as CSS or download PNG images of the patterns.
 - It adds a modern and professional aesthetic to the website.
 
 <a href="https://www.magicpattern.design/tools/css-backgrounds">
@@ -18,7 +18,7 @@
 
 **Visual**
 - The hero section illustration is downloaded from Visual.
-- They offer high quality free illustrations for different theme and style.
+- They offer high quality free illustrations for different themes and styles.
 - Available for download in PNG or SVG format with transparent backgrounds.
 
 <a href="https://visual.app/">
@@ -38,11 +38,10 @@
 ---
 
 **Font Awesome**
-- I use Font Awesome icons to make the website more interactive and dynamic.
-- Icons paired with text make buttons, links and sections easier to understand.
-- They give a visual sense for actions like Email, GitHub, or Social links.
+- I used Font Awesome icons to make the website more interactive and dynamic.
+- They give a visual sense of actions like Email, GitHub, or Social links.
 - They can react with hover effects or animations, making the website feel alive.
-- Also easy to customize size, colors and style to match the website theme.
+- Also they are easy to customize by changing size, colors and style to match the website theme.
 
 <a href="https://fontawesome.com/icons">
 <img title="Font Awesome" src="https://github.com/user-attachments/assets/1ef97f82-9a15-4a97-8f8b-c9d5eaea84b7">
@@ -102,7 +101,7 @@ themrityunjaypathak.github.io/
 ├── index.html               # Main HTML File
 ├── style.css                # CSS Style File
 ├── script.js                # JavaScript File
-├── README.md                # Documentaion of the Portfolio
+├── README.md                # Documentation of the Portfolio
 └── LICENSE                  # Specifying Permissions and Usage Rights
 ```
 
