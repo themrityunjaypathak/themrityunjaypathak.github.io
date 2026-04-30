@@ -40,6 +40,9 @@ body::-webkit-scrollbar {
 /* Navbar */
 .navbar {
     width: 100%;
+    padding: 6px;
+    background: #1F1F1F;
+    border-radius: 50px;
 }
 
 .navbar-inner {
@@ -50,12 +53,18 @@ body::-webkit-scrollbar {
 }
 
 .nav-left img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     object-fit: cover;
 }
 
 .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 16px;
     color: #BFBFBF;
     font-variant-numeric: tabular-nums;
@@ -86,7 +95,7 @@ section {
     font-weight: 500;
     padding: 6px 12px;
     border-radius: 10px;
-    color: #EAEFEF;
+    color: #ECECEC;
     background: #303030;
 }
 
@@ -137,7 +146,7 @@ section {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #22C55E;
+    background: #41A67E;
 }
 
 .dot::after {
@@ -146,7 +155,7 @@ section {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #22C55E;
+    background: #41A67E;
     animation: pulse 1.8s infinite ease-out;
     opacity: 0.6;
 }
@@ -169,7 +178,7 @@ section {
 
 .home-title {
     font-size: 32px;
-    color: #EAEFEF;
+    color: #ECECEC;
 }
 
 .home-subtitle {
@@ -194,7 +203,7 @@ section {
     font-size: 16px;
     border: 1px solid #303030;
     border-radius: 10px;
-    color: #EAEFEF;
+    color: #ECECEC;
     transition: all 0.2s ease-out;
 }
 
@@ -207,7 +216,7 @@ section {
 }
 
 .btn:hover {
-    background: #141414;
+    background: #303030;
 }
 
 /* About Section */
@@ -249,7 +258,7 @@ section {
     inset: 0;
     width: 100%;
     height: 100%;
-    fill: #141414;
+    fill: #1F1F1F;
     stroke: #303030;
     stroke-width: 1;
     transition: fill 0.3s ease-out, stroke 0.3s ease-out, transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
@@ -298,13 +307,13 @@ section {
 .paper-1 {
     z-index: 3;
     transform: translateY(0) rotate(-1deg);
-    background: #EAEFEF;
+    background: #ECECEC;
 }
 
 .project-folder:hover .folder-back,
 .project-folder:hover .folder-front {
-    fill: #1F1F1F;
-    stroke: #505050;
+    fill: #191919;
+    stroke: #303030;
 }
 
 .project-folder:hover .folder-front {
@@ -344,13 +353,13 @@ section {
 
 .paper-meta b {
     font-weight: 500;
-    color: #EAEFEF;
+    color: #ECECEC;
 }
 
 .paper-meta hr {
     margin: 6px 0;
     border: 0;
-    border-top: 1px solid #505050;
+    border-top: 1px solid #303030;
 }
 
 .folder-content {
@@ -368,7 +377,7 @@ section {
 .project-name {
     font-size: 18px;
     font-weight: 500;
-    color: #EAEFEF;
+    color: #ECECEC;
 }
 
 .project-links {
@@ -402,7 +411,7 @@ section {
 }
 
 .project-links a:hover {
-    background: #141414;
+    background: #303030;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -442,7 +451,7 @@ section {
 .exp-pos {
     font-size: 18px;
     font-weight: 500;
-    color: #EAEFEF;
+    color: #ECECEC;
     margin-bottom: 10px;
 }
 
@@ -495,7 +504,7 @@ section {
 .edu-degree {
     font-size: 18px;
     font-weight: 500;
-    color: #EAEFEF;
+    color: #ECECEC;
     margin-bottom: 10px;
 }
 
@@ -535,7 +544,7 @@ section {
 
 .scroll-track span {
     white-space: nowrap;
-    padding: 8px 16px;
+    padding: 10px 16px;
     font-size: 16px;
     border-radius: 50px;
     color: #BFBFBF;
@@ -611,7 +620,7 @@ section {
 
 .contact-value {
     font-size: 18px;
-    color: #EAEFEF;
+    color: #ECECEC;
 }
 
 .arrow {
@@ -620,7 +629,7 @@ section {
 }
 
 .contact-item:hover {
-    background: #141414;
+    background: #303030;
 }
 
 .contact-item:hover .arrow {
