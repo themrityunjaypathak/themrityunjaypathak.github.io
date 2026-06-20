@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://themrityunjaypathak.github.io/sitemap.xml
